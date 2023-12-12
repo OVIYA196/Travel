@@ -1,0 +1,441 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.overall{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+.container-1{
+    width: 100%;
+    padding: 20px;
+    background-image: url(https://e0.pxfuel.com/wallpapers/759/825/desktop-wallpaper-travel-laptop-full-vacation.jpg);
+    height: 100vh;
+    background-size: cover;
+}   
+
+ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    
+    
+}
+
+
+ul li a {
+    
+    padding: 30px;
+    font-size: 20px;
+    border: 2px solid transparent;
+    font-weight: bold;
+    color: black;
+    
+}
+.butt{
+    margin-left: 30px;
+    padding: 10px 20px;
+    background-color: skyblue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    /* position: absolute; */
+}
+
+.content-1{
+    /* position: absolute; */
+    text-align: center;
+    padding: 250px 20px;
+}
+.head{
+    font-weight: bold;
+    font-size: 65px;
+    padding-bottom: 20px;
+    /* position: absolute; */
+}
+.content{
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-size: 20px;
+    padding-bottom: 20px;
+    /* position: absolute; */
+   
+}
+
+.content-btn{
+    /* position: absolute; */
+    border-radius: 5px;
+    border: 1px solid white;
+    font-size: 15px;
+    padding: 10px 30px;
+    margin-left: 20px;
+}
+
+.content-btn1{
+    /* position: absolute; */
+    border-radius: 5px;
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+    font-size: 15px;
+    padding: 10px 30px;
+    margin-left: 20px;
+}
+
+/* --------------------------about-------------------- */
+
+section{
+    padding: 70px;
+    width: 100%;
+}
+.container-2{
+    padding-bottom: 20px;
+}
+.topic{
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    
+}
+.para{
+    padding-right: 400px;
+    padding-bottom: 20px;
+    color: grey;
+}
+
+.containers-6{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    
+}
+.box{
+    background-color: transparent;
+    border: 1px solid silver;
+    
+}
+.box1{
+    padding: 20px;
+}
+.box1 h1{
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+.concept{
+    line-height: 25px;
+    padding-bottom: 20px;
+    color: grey;
+}
+.read{
+    color: skyblue;
+    font-size: 20px;
+}
+.box img{
+    width: 100%;
+    height: 280px;
+}
+
+.travel-content p{
+    line-height: 30px;
+    color: grey;
+    font-size: 22px;
+    padding: 20px 200px;
+    padding-top: 100px;
+
+}
+
+.container-3{
+    width: 100%;
+    background-image: url(https://static8.depositphotos.com/1037168/918/i/450/depositphotos_9186147-stock-photo-over-water-bungalows-with-steps.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    text-align: center;
+    padding: 100px 50px;
+}
+.container-3 h1{
+    
+    padding-bottom: 30px;
+    font-size: 65px;
+    font-weight: bold;
+    color: white;
+}
+.container-3 .inp{
+    display: flex;
+}
+.container-3 input{
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.container-3 span{
+    font-size: 15px;
+    width: 20%;
+    height: 50px;
+    padding-top: 20px;
+    
+    background-color: skyblue;
+    color: white;
+    border:none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/* --------------------------------------page4---------------------------------- */
+
+.container-4{
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    padding: 80px 30px;
+    gap: 20px;
+}
+
+.container-4 .card{
+    border-radius: 5px;
+   padding: 30px;
+}
+
+.container-4 .card h1{
+    padding-bottom: 20px;
+    color: white;
+}
+
+.container-4 .card p{
+    padding-bottom: 20px;
+    color: white;
+    padding-right: 30px;
+}
+
+.container-4 .card h3{
+    font-size: 22px;
+    color: white;
+}
+.container-4 .card1{
+     
+    background: linear-gradient(to left top, rgb(240, 41, 74), rgb(240, 82, 109), rgb(255, 17, 57));
+}
+
+.container-4 .card2{
+     
+    background: linear-gradient(to left top, rgb(248, 0, 248), rgb(238, 140, 217), rgb(226, 22, 192));
+}
+
+.container-4 .card3{
+     
+    background: linear-gradient(to left top, rgb(0, 248, 165), rgb(140, 238, 184), rgb(9, 194, 132));
+}
+
+
+
+.article1{
+    width: 100%;
+    padding: 50px 200px;
+}
+
+.article1 i{
+    font-size: 70px;
+    color: silver;
+    padding-bottom: 20px;
+}
+.article1 p{
+    line-height: 35px;
+    color: grey;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.article1 h2{
+    color: grey;
+}
+
+.container5{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 80px 50px;
+    gap: 20px;
+}
+.container5 .b{
+    border-radius: 0px;
+    border: none;
+    padding-bottom: 20px;
+    
+}
+.container5 .b h1{
+    padding-bottom: 20px;
+    color: gray;
+}
+.container5 .b p{
+    padding-bottom: 20px;
+    color: silver;
+}
+.container5 .b h4{
+    padding-bottom: 20px;
+    color: skyblue;
+    font-size: 21px;
+}
+.container5 .b-1 button{
+    border-radius: 5px;
+    padding: 5px 50px;
+    border: none;
+    background-color: rgb(5, 182, 252);
+    color: grey;
+    font-size: 18px;
+    margin-left: 40px;
+}
+
+
+.container5 .b-2 img{
+    width: 401px;
+    height: 250px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+}
+/* -------------------------------page6----------------------- */
+
+.container6 {
+    text-align: center;
+    width: 100%;
+    
+}
+
+.container6 .Top h1{
+    padding-bottom: 20px; 
+       
+}
+
+.container6 .Top p{
+    
+    line-height: 30px; 
+    color: silver;
+    padding: 0px 300px;   
+}
+.container-6{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 80px 50px;
+    gap: 20px;
+    box-shadow: silver;
+}
+.container-6 a {
+    border-radius: 5px;
+    border: 1px solid black;
+
+}
+.container-6 .a img{
+    width: 400px;
+    height: 250px;
+    padding-bottom: 20px;
+}
+
+.container-6 .a h1{
+      
+      padding: 0px 50px;
+      padding-bottom: 20px;
+}
+
+.container-6 .a p{
+    line-height: 22px;
+    padding: 0px 50px;
+    padding-bottom: 20px;
+    color: grey;
+}
+.container-6 .a h4{
+    color: rgb(5, 179, 248);
+    font-size: 20px;
+}
+
+/* -----------------------Footer----------------------- */
+
+footer{
+    width: 100%;
+    background-color: rgb(180, 178, 178);
+    
+}
+.fot{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    padding: 40px;
+    gap: 40px;
+    
+}
+.fot .q h1{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.fot .q p{
+    font-size: 15px;
+    padding-bottom: 10px;
+    line-height: 22px;
+}
+.fot .q4 i{
+    background-color: skyblue;border-radius: 50%;
+    padding: 10px;
+}
+
+/* --------------------------media query-------------------- */
+
+@media screen and (max-width:800px){
+    .overall{
+        width: 100%;
+    }
+    
+    ul{
+   flex-direction: column;
+   padding-top: 10px;
+        }
+       
+   ul li a {
+           
+           margin-top: 30px;
+        }
+        .butt{
+            margin-right: 30px;
+            margin-top: 20px;
+        }
+        
+        .content-1{
+            text-align: center;
+            padding: 100px 20px;width:100%;
+        }
+       .content-btn1{
+            margin-top: 20px;
+        }
+
+        /* -------about--------------------- */
+       
+        section{
+            padding: 20px;
+        }
+        .container-2{
+            padding-bottom: 20px;
+        }.container-1{width:100%;}
+        
+        .para{
+            padding-right: 0px;
+        }
+        
+
+        .travel-content p{
+            line-height: 30px;
+            color: grey;
+            font-size: 22px;
+            padding: 20px 0px;
+            padding-top: 50px;
+        
+        }
+
+      /* ------------page3-------------- */
+      .container-3 span{
+        font-size: 10px;
+      }
+}
